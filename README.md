@@ -1,4 +1,16 @@
-titoarturo.io
-=============
+#Tito Agudelo
 
-my website 
+http://titoarturo.io
+=============
+##Description
+
+my website
+
+##Requeriments
+
+- Django
+- Twitter Bootstrap
+- Scroll Reveal
+- AngularJS
+- Bower
+- Grunt
