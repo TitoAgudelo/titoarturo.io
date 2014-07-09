@@ -1,0 +1,61 @@
+{% extends "layout.html" %}
+{% load static from staticfiles %}
+{% block page %}About{% endblock %}
+{% block content %}
+<section id="about" class="main-content">
+	<div class="row">
+		<h1>about us</h1>
+	</div>
+	<div class="row">
+		<div class="large-6 columns">
+			<div id="social">
+				<img src="{% static "img/social/1.png" %}">
+				<h2>Juan Pinilla</h2>
+				<span>Front-end / Back-end Developer</span>
+				<div class="social_background">
+					<ul>
+						<li><a href="https://www.facebook.com/gotiktraum" target="_blank"><img src="{% static "img/social/social-fb.png" %}"></a></li>
+						<li><a href="https://twitter.com/jp_pinilla" target="_blank"><img src="{% static "img/social/social-tw.png" %}"></a></li>
+						<li><a href="http://www.linkedin.com/profile/view?id=163266621" target="_blank"><img src="{% static "img/social/social-in.png" %}"></a></li>
+						<li><a href=""><img src="{% static "img/social/social-pint.png" %}"></a></li>
+						<li><a href=""><img src="{% static "img/social/social-yah.png" %}"></a></li>
+						<li><a href=""><img src="{% static "img/social/social-dig.png" %}"></a></li>
+					</ul>
+				</div>
+				<span>Info:</span>
+				<div>
+					<p>juan pinilla Front-end Developer</p>
+				</div>
+				<div>
+					<span id="buttons">learn more</span>
+				</div>
+			</div>			
+		</div>
+
+		<div class="large-6 columns">
+			<div id="social">
+				<img src="{% static "img/social/2.jpg" %}">
+				<h2>Tito Agudelo</h2>
+				<span>Front-end Developer</span>
+				<div class="social_background">
+					<ul>
+						<li><a href="https://www.facebook.com/titoagudelojunior" target="_blank"><img src="{% static "img/social/social-fb.png" %}"></a></li>
+						<li><a href="https://twitter.com/TitoArturo" target="_blank"><img src="{% static "img/social/social-tw.png" %}"></a></li>
+						<li><a href="http://www.linkedin.com/profile/view?id=204678152" target="_blank"><img src="{% static "img/social/social-in.png" %}"></a></li>
+						<li><a href=""><img src="{% static "img/social/social-pint.png" %}"></a></li>
+						<li><a href=""><img src="{% static "img/social/social-yah.png" %}"></a></li>
+						<li><a href=""><img src="{% static "img/social/social-dig.png" %}"></a></li>
+					</ul>
+				</div>
+				<span>Info:</span>
+				<div>
+					<p>Tito Agudelo Front-end Developer</p>
+				</div>
+				<div>
+					<span id="buttons">learn more</span>
+				</div>
+			</div>			
+		</div>
+	</div>
+</section>
+{% endblock %}

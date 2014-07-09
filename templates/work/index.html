@@ -1,0 +1,53 @@
+{% extends "layout.html" %}
+{% load static from staticfiles %}
+{% block page %}Work{% endblock %}
+{% block content %}
+<section id="work" class="main-content">
+	<div class="row">
+		<h1>our Work</h1>
+	</div>
+	<div class="row">
+		<div class="large-6 columns">
+			<div class="item user">
+                <div class="circle">
+                	<h2>NuevaPiel</h2>
+                </div>
+            </div>
+            <div class="item user">
+                <div class="circle">
+                	<h2>Inhello</h2>
+                </div>
+            </div>
+            <div class="item user">
+                <div class="circle">
+                	<h2>Inhello</h2>
+                </div>
+            </div>
+		</div>
+		<div class="large-6 columns vertical">
+			<div>
+				<img src="{% static "img/inhello.png" %}">
+			</div>
+			<div id="social_background">
+				<ul>
+					<li><a href=""><img src="{% static "img/social/social-fb.png" %}"></a></li>
+					<li><a href=""><img src="{% static "img/social/social-tw.png" %}"></a></li>
+					<li><a href=""><img src="{% static "img/social/social-in.png" %}"></a></li>
+					<li><a href=""><img src="{% static "img/social/social-pint.png" %}"></a></li>
+					<li><a href=""><img src="{% static "img/social/social-yah.png" %}"></a></li>
+					<li><a href=""><img src="{% static "img/social/social-dig.png" %}"></a></li>
+				</ul>
+			</div>
+			<div>
+				<h2>Inhello</h2>
+			</div>
+			<div>
+				<p>Aplication for video calls.</p>
+				<span id="buttons">learn more</span>
+			</div>
+		</div>
+	</div>	
+</section>
+
+
+{% endblock %}

@@ -1,0 +1,58 @@
+{% extends "layout.html" %}
+{% load static from staticfiles %}
+{% block page %}Contact{% endblock %}
+{% block content %}
+<form action="{% url "contact" %}" method="post" >
+	<section id="contact">
+		<div class="row">
+			<h1>contact</h1>
+		</div>
+		<div class="row">
+			<div class="large-3 columns"></div>
+			<div class="large-6 columns" id="flush">
+				<h2>Send us Message</h2>
+				<div>
+					<form action="#" method="post">
+						<table align="left" >
+							<tr>
+								<td>
+									<label>Name:</label>
+								</td>
+								<td>
+									<input id="id_name" type="text" name="name" maxlength="20" required>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<label>Email:</label>
+								</td>
+								<td>
+									<input id="id_mail" type="text" name="mail" maxlength="20" required>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<label>Phone:</label>
+								</td>
+								<td>
+									<input id="id_phone" type="text" name="phone" maxlength="20">
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<label>Message:</label>
+								</td>
+								<td>
+									<textarea id="id_info" rows="3" cols="23" name="info" required></textarea>
+								</td>
+							</tr>
+						</table>
+						<input id="button" type="submit" value="Send">				
+					</form>
+				</div>
+			</div>
+			<div class="large-3 columns"></div>
+		</div>
+	</section>
+</form>
+{% endblock %}
