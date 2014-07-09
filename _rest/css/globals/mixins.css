@@ -1,0 +1,14 @@
+/* line 1, ../src/globals/mixins.sass */
+.ir {
+  background-color: transparent;
+  border: 0;
+  overflow: hidden;
+  *text-indent: -9999em;
+}
+/* line 9, ../src/globals/mixins.sass */
+.ir:before {
+  content: "";
+  display: block;
+  width: 0;
+  height: 100%;
+}
