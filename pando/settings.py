@@ -6,7 +6,6 @@ DEBUG = True
 TEMPLATE_DEBUG = DEBUG
 
 ADMINS = (
-    ('Juan Pinilla', 'juan+nuevapiel@kamikazepanda.com'),
     ('Tito Arturo', 'titoarturoagudelo@gmail.com'),
 )
 
@@ -70,7 +69,7 @@ STATICFILES_DIRS = (
     # Put strings here, like "/home/html/static" or "C:/www/django/static".
     # Always use forward slashes, even on Windows.
     # Don't forget to use absolute paths, not relative paths.
-    os.sep.join(os.path.abspath(__file__).split(os.sep)[:-2] + ['_res']),
+    os.sep.join(os.path.abspath(__file__).split(os.sep)[:-2] + ['_rest']),
 )
 
 # List of finder classes that know how to find static files in
