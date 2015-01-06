@@ -1,0 +1,52 @@
+/* line 1, ../src/home/main.sass */
+html, body {
+  background-color: #222222;
+  height: 100%;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* line 6, ../src/home/main.sass */
+footer {
+  background-color: #CCC7BC;
+  height: 250px;
+  padding: 10%;
+}
+
+/* line 11, ../src/home/main.sass */
+#pg-body {
+  min-height: 100%;
+  margin-bottom: -250px;
+}
+
+/* line 15, ../src/home/main.sass */
+#home {
+  margin-top: 10%;
+}
+/* line 17, ../src/home/main.sass */
+#home img {
+  width: 100%;
+}
+/* line 19, ../src/home/main.sass */
+#home p {
+  color: #9b9b9b;
+  padding: 5% 2%;
+  text-align: center;
+}
+
+/* line 25, ../src/home/main.sass */
+.nav-dark {
+  background-color: #19654A;
+  border: none;
+}
+/* line 28, ../src/home/main.sass */
+.nav-dark .container {
+  width: 90%;
+}
+/* line 30, ../src/home/main.sass */
+.nav-dark .container .navbar-header {
+  width: 10%;
+}
+/* line 32, ../src/home/main.sass */
+.nav-dark .navbar-brand {
+  color: white;
+}
