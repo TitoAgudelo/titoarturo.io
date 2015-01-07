@@ -1,9 +1,29 @@
 <!-- Footer -->
-
+{% load static from staticfiles %}
 <footer id="main-footer">
-  <div class="row">
-    <p>© 2015 Tito. Todos los derechos reservados.</p>
-  </div>
+	<div class="row">
+		<div class="col-sm-6">
+			<p>© 2015 Tito. Todos los derechos reservados.</p>
+		</div>
+		<div class="col-sm-6 social">
+			<a href="https://dribbble.com/TitoArturo" target="_blank">
+				<img src="{% static "img/footer/dribbble.svg" %}">
+			</a>
+			<a href="https://github.com/TitoAgudelo" target="_blank">
+				<img src="{% static "img/footer/github.svg" %}">
+			</a>
+			<a href="http://instagram.com/junioragudelo/" target="_blank">
+				<img src="{% static "img/footer/instagram.svg" %}">
+			</a>
+			<a href="https://www.linkedin.com/profile/view?id=204678152&trk=nav_responsive_tab_profile" target="_blank">
+				<img src="{% static "img/footer/linkedin.svg" %}">
+			</a>
+			<a href="https://twitter.com/TitoArturo" target="_blank">
+				<img src="{% static "img/footer/twitter.svg" %}">
+			</a>
+		</div>
+	</div>
+	<hr>
 </footer>
 
 <!-- End Footer -->

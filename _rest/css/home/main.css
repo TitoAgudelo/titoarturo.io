@@ -8,42 +8,65 @@ html, body {
 /* line 6, ../src/home/main.sass */
 footer {
   background-color: #5a9aa7;
-  padding: 10%;
+  padding: 10% 5% 5% 5%;
+}
+/* line 9, ../src/home/main.sass */
+footer .social {
+  float: right;
+}
+/* line 11, ../src/home/main.sass */
+footer .social img {
+  cursor: pointer;
+  float: right;
+  margin: 0 1.5%;
+  width: 25px;
 }
 
-/* line 10, ../src/home/main.sass */
+/* line 17, ../src/home/main.sass */
 #home {
   margin-top: 10%;
 }
-/* line 12, ../src/home/main.sass */
+/* line 19, ../src/home/main.sass */
 #home img {
   width: 100%;
 }
-/* line 14, ../src/home/main.sass */
+/* line 21, ../src/home/main.sass */
 #home p {
   color: #9b9b9b;
   padding: 5% 2%;
   text-align: center;
 }
-/* line 18, ../src/home/main.sass */
+/* line 25, ../src/home/main.sass */
 #home .window {
   margin-bottom: -45px;
 }
 
-/* line 21, ../src/home/main.sass */
+/* line 28, ../src/home/main.sass */
 .nav-dark {
   background-color: #19654A;
   border: none;
 }
-/* line 24, ../src/home/main.sass */
+/* line 31, ../src/home/main.sass */
 .nav-dark .container {
   width: 90%;
 }
-/* line 26, ../src/home/main.sass */
+/* line 33, ../src/home/main.sass */
 .nav-dark .container .navbar-header {
   width: 10%;
 }
-/* line 28, ../src/home/main.sass */
+/* line 35, ../src/home/main.sass */
 .nav-dark .navbar-brand {
   color: white;
+}
+/* line 37, ../src/home/main.sass */
+.nav-dark .hire {
+  background-color: #348899;
+  -moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
+  border-radius: 15px;
+  color: white;
+  float: right;
+  margin-top: 1rem;
+  padding: 5px 10px;
+  text-decoration: none;
 }
