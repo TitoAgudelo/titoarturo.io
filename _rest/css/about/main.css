@@ -1,0 +1,13 @@
+/* line 1, ../src/about/main.sass */
+#about {
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+}
+/* line 5, ../src/about/main.sass */
+#about #social h2 {
+  color: white;
+}
+/* line 7, ../src/about/main.sass */
+#about #social span {
+  color: #9b9b9b;
+}

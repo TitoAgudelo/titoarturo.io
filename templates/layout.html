@@ -23,16 +23,16 @@
 
 {% block scripts %}
 {% if debug %}
-	<script src="{% static "bower_components/jquery/jquery.js" %}"></script>
-	<script src="{% static "bower_components/boostrap/assets/javascripts/boostrap.js" %}"></script>
-	<script src="{% static "bower_components/scrollReveal.js/dist/scrollReveal.js" %}"></script>
+	<script src="{% static "bower_components/jquery/dist/jquery.js" %}"></script>
+	<script src="{% static "bower_components/boostrap-sass-official/assets/javascripts/boostrap.js" %}"></script>
+	<script src="{% static "bower_components/scrollReveal.js/dist/scrollReveal.min.js" %}"></script>
 	<script>
 		window.scrollReveal = new scrollReveal();
   	</script>
 {% else %}
 	<script src="{% static "js/app.min.js" %}"></script>
 	<script>
-		window.scrollReveal = new scrollReveal();
+		window.sr = new scrollReveal();
   	</script>
 {% endif %}
 {% endblock %}
