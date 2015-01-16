@@ -8197,3 +8197,15 @@ footer .social img {
 #about #social span {
   color: #9b9b9b;
 }
+/* line 9, src/about/main.sass */
+#about .title-head-skill {
+  margin-bottom: 2rem;
+}
+/* line 11, src/about/main.sass */
+#about .title-skill {
+  color: white;
+}
+/* line 13, src/about/main.sass */
+#about .subtitle-skill {
+  color: #9b9b9b;
+}
