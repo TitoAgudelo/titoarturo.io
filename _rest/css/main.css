@@ -8194,7 +8194,7 @@ footer .social img {
   color: white;
 }
 /* line 7, src/about/main.sass */
-#about #social span {
+#about #social h4, #about #social p {
   color: #9b9b9b;
 }
 /* line 9, src/about/main.sass */
