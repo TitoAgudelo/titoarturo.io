@@ -8727,6 +8727,26 @@ footer .social img {
   text-decoration: none;
 }
 
+/* line 49, src/home/main.sass */
+.navbar-default .navbar-nav > li > a {
+  color: white;
+}
+/* line 51, src/home/main.sass */
+.navbar-default .navbar-nav > a {
+  background-color: #19654A;
+  color: white;
+}
+/* line 54, src/home/main.sass */
+.navbar-default .navbar-nav > .active > a {
+  background-color: #187C75;
+  color: white;
+}
+/* line 57, src/home/main.sass */
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > .active > a:hover {
+  background-color: #187C75;
+  color: #555;
+}
+
 /* line 1, src/about/main.sass */
 #about {
   margin-top: 10rem;
