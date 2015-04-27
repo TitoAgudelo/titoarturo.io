@@ -8791,3 +8791,17 @@ footer .social img {
   border-radius: 50%;
   margin-bottom: 3rem;
 }
+
+/* line 1, src/contact/main.sass */
+#contact {
+  margin-top: 6rem;
+  margin-bottom: 6rem;
+}
+/* line 4, src/contact/main.sass */
+#contact h2 {
+  color: white;
+}
+/* line 6, src/contact/main.sass */
+#contact label {
+  color: #9b9b9b;
+}

@@ -5,53 +5,36 @@
 <form action="{% url "contact" %}" method="post" >
 	<section id="contact" class="container">
 		<div class="row">
-			<h1>contact</h1>
+			<div class="col-xs-12 col-sm-3 col-sm-offset-3 col-md-3 col-md-offset-3">
+				<h2>Contact</h2>
+			</div>
 		</div>
 		<div class="row">
-			<div class="large-3 columns"></div>
-			<div class="large-6 columns" id="flush">
-				<h2>Send us Message</h2>
+			<div class="col-xs-12 col-sm-6 col-sm-offset-3 col-md-6 col-md-offset-3" id="flush">
+				<h2>Send us message</h2>
 				<div>
 					<form action="#" method="post">
-						<table align="left" >
-							<tr>
-								<td>
-									<label>Name:</label>
-								</td>
-								<td>
-									<input id="id_name" type="text" name="name" maxlength="20" required>
-								</td>
-							</tr>
-							<tr>
-								<td>
-									<label>Email:</label>
-								</td>
-								<td>
-									<input id="id_mail" type="text" name="mail" maxlength="20" required>
-								</td>
-							</tr>
-							<tr>
-								<td>
-									<label>Phone:</label>
-								</td>
-								<td>
-									<input id="id_phone" type="text" name="phone" maxlength="20">
-								</td>
-							</tr>
-							<tr>
-								<td>
-									<label>Message:</label>
-								</td>
-								<td>
-									<textarea id="id_info" rows="3" cols="23" name="info" required></textarea>
-								</td>
-							</tr>
-						</table>
-						<input id="button" type="submit" value="Send">
+						<div class="form-group">
+					    <label for="exampleInputEmail1">Name</label>
+					    <input type="name" class="form-control" id="exampleInputEmail1" placeholder="Enter your name">
+					  </div>
+					  <div class="form-group">
+					    <label for="exampleInputEmail1">Email address</label>
+					    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+					  </div>
+					  <div class="form-group">
+					    <label for="exampleInputPassword1">Phone number</label>
+					    <input type="phone" class="form-control" id="exampleInputPassword1" placeholder="Phone number">
+					  </div>
+						<div class="form-group">
+					    <label for="exampleInputPassword1">Any comment</label>
+							<textarea class="form-control" rows="3" placeholder="Enter any comment is optional"></textarea>
+						</div>
+
+					  <button type="submit" class="btn btn-success" disabled="disabled">Submit</button>
 					</form>
 				</div>
 			</div>
-			<div class="large-3 columns"></div>
 		</div>
 	</section>
 </form>
