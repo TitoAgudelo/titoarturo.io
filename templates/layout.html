@@ -24,7 +24,7 @@
 {% block scripts %}
 {% if debug %}
 	<script src="{% static "bower_components/jquery/dist/jquery.js" %}"></script>
-	<script src="{% static "bower_components/boostrap-sass-official/assets/javascripts/boostrap.js" %}"></script>
+	<script src="{% static "bower_components/boostrap-sass/assets/javascripts/boostrap.min.js" %}"></script>
 	<script src="{% static "bower_components/scrollReveal.js/dist/scrollReveal.min.js" %}"></script>
 	<script>
 		window.scrollReveal = new scrollReveal();
@@ -33,7 +33,7 @@
 	<script src="{% static "js/app.min.js" %}"></script>
 	<script>
 		window.sr = new scrollReveal();
-  	</script>
+	</script>
 {% endif %}
 {% endblock %}
 {% endspaceless %}

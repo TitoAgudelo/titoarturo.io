@@ -1,0 +1,18 @@
+/* line 1, ../src/work/main.sass */
+#work {
+  margin-top: 6rem;
+  margin-bottom: 6rem;
+}
+/* line 4, ../src/work/main.sass */
+#work h2 {
+  color: white;
+}
+/* line 6, ../src/work/main.sass */
+#work h4, #work p {
+  color: #9b9b9b;
+}
+/* line 8, ../src/work/main.sass */
+#work img {
+  border-radius: 50%;
+  margin-bottom: 3rem;
+}

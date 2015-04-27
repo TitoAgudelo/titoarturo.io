@@ -8,7 +8,7 @@ module.exports = function(grunt) {
         src: [
           // bower components
             "bower_components/jquery/dist/jquery.js",
-            'bower_components/bootstrap-sass-official/assets/bootstrap.js',
+            'bower_components/bootstrap-sass/assets/javascripts/bootstrap.min.js',
             'bower_components/scrollReveal.js/dist/scrollReveal.js',
             'bower_components/modernizr/modernizr.js',
 
