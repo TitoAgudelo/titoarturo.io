@@ -21,44 +21,56 @@ footer .social img {
   margin: 0 1.5%;
   width: 25px;
 }
+@media screen and (max-width: 800px) {
+  /* line 6, ../src/home/main.sass */
+  footer {
+    padding: 20% 5% 5% 5%;
+  }
+}
 
-/* line 17, ../src/home/main.sass */
+/* line 19, ../src/home/main.sass */
 #home {
   margin-top: 10%;
 }
-/* line 19, ../src/home/main.sass */
+/* line 21, ../src/home/main.sass */
 #home img {
   width: 100%;
 }
-/* line 21, ../src/home/main.sass */
+/* line 23, ../src/home/main.sass */
 #home p {
   color: #9b9b9b;
   padding: 5% 2%;
   text-align: center;
 }
-/* line 25, ../src/home/main.sass */
+/* line 27, ../src/home/main.sass */
 #home .window {
   margin-bottom: -45px;
 }
+@media screen and (max-width: 800px) {
+  /* line 19, ../src/home/main.sass */
+  #home {
+    margin-top: 20%;
+  }
+}
 
-/* line 28, ../src/home/main.sass */
+/* line 33, ../src/home/main.sass */
 .nav-dark {
   background-color: #19654A;
   border: none;
 }
-/* line 31, ../src/home/main.sass */
+/* line 36, ../src/home/main.sass */
 .nav-dark .container {
   width: 90%;
 }
-/* line 33, ../src/home/main.sass */
+/* line 38, ../src/home/main.sass */
 .nav-dark .container .navbar-header {
   width: 10%;
 }
-/* line 35, ../src/home/main.sass */
+/* line 40, ../src/home/main.sass */
 .nav-dark .navbar-brand {
   color: white;
 }
-/* line 37, ../src/home/main.sass */
+/* line 42, ../src/home/main.sass */
 .nav-dark .hire {
   background-color: #348899;
   -moz-border-radius: 15px;
@@ -71,21 +83,21 @@ footer .social img {
   text-decoration: none;
 }
 
-/* line 49, ../src/home/main.sass */
+/* line 54, ../src/home/main.sass */
 .navbar-default .navbar-nav > li > a {
   color: white;
 }
-/* line 51, ../src/home/main.sass */
+/* line 56, ../src/home/main.sass */
 .navbar-default .navbar-nav > a {
   background-color: #19654A;
   color: white;
 }
-/* line 54, ../src/home/main.sass */
+/* line 59, ../src/home/main.sass */
 .navbar-default .navbar-nav > .active > a {
   background-color: #187C75;
   color: white;
 }
-/* line 57, ../src/home/main.sass */
+/* line 62, ../src/home/main.sass */
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > .active > a:hover {
   background-color: #187C75;
   color: #555;
